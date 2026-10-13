@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="es" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lote 52 Residencial SILVESTA | VHTC Bienes Raíces</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        vrtcDark: '#111315',
+                        vrtcSteel: '#5C646E',
+                        vrtcSilver: '#F7F8FA',
+                        vrtcPlatinum: '#E2E6EC',
+                        vrtcEmerald: '#059669',
+                    },
+                    fontFamily: {
+                        cinzel: ['Cinzel', 'serif'],
+                        inter: ['Inter', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #F7F8FA;
+            color: #111315;
+        }
+    </style>
+</head>
+<body class="antialiased selection:bg-vrtcSteel selection:text-white">
+
+    <header class="fixed top-0 left-0 right-0 z-50 bg-vrtcDark/95 backdrop-blur-md border-b border-vrtcPlatinum transition-all duration-300">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
+            <a href="index.html" class="flex items-center space-x-3">
+                <div class="w-10 h-10 rounded-xl bg-gradient-to-br from-slate-200 via-slate-400 to-slate-600 flex items-center justify-center shadow-sm">
+                    <span class="font-cinzel font-bold text-white text-lg tracking-wider">V</span>
+                </div>
+                <div>
+                    <span class="font-cinzel font-bold text-lg tracking-widest text-white block">VHTC</span>
+                    <span class="text-[10px] uppercase tracking-widest text-vrtcSteel font-medium block -mt-1">Bienes Raíces</span>
+                </div>
+            </a>
+            <div class="flex items-center space-x-4">
+                <a href="index.html" class="inline-flex items-center space-x-2 text-xs font-semibold uppercase tracking-wider text-white hover:text-emerald-400 transition-colors py-2 px-4 rounded-full border border-vrtcPlatinum">
+                    <i class="fa-solid fa-arrow-left"></i>
+                    <span>Volver al inicio</span>
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <section class="pt-28 pb-12 bg-vrtcDark text-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex flex-col md:flex-row justify-between items-start md:items-center gap-4 mb-6">
+                <div>
+                    <span class="text-xs uppercase font-semibold tracking-widest text-emerald-400 block mb-2">Zona Norte, Mérida • Conkal</span>
+                    <h1 class="font-cinzel text-3xl sm:text-4xl lg:text-5xl font-bold">Lote 52 Residencial SILVESTA</h1>
+                </div>
+                <div class="text-left md:text-right">
+                    <span class="text-xs uppercase tracking-widest text-vrtcSteel block">Precio</span>
+                    <span class="font-cinzel text-2xl sm:text-3xl font-bold text-emerald-400">$985,000.00 MXN</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-12 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 lg:grid-cols-3 gap-10">
+                
+                <div class="lg:col-span-2 space-y-8">
+                    
+                    <!-- Carrusel de 10 Fotos -->
+                    <div class="relative rounded-2xl overflow-hidden shadow-lg aspect-video bg-vrtcSilver group">
+                        
+                        <div class="absolute top-4 right-4 z-20 bg-black/60 text-white text-xs font-medium px-3 py-1.5 rounded-full backdrop-blur-md">
+                            <span id="current-slide-num">1</span> / <span id="total-slide-num">10</span>
+                        </div>
+
+                        <div id="carousel-track" class="w-full h-full flex transition-transform duration-500 ease-out">
+                            <!-- Foto 1 (Sustituye por tus enlaces de Imgur) -->
+                            <div class="w-full h-full flex-shrink-0 cursor-pointer" onclick="openLightbox(this)">
+                                <img src="https://www.mudarseamerida.com/site/assets/files/169100/whatsapp_image_2024-05-07_at_3_44_07_pm.1000x600.jpeg" onerror="this.src='https://placehold.co/1200x800/E2E6EC/5C646E?text=Silvesta+Lote+52+Foto+1'" alt="Silvesta Lote 52 - Foto 1" class="w-full h-full object-cover hover:scale-105 transition-transform duration-300">
+                            </div>
+                            <!-- Foto 2 -->
+                            <div class="w-full h-full flex-shrink-0 cursor-pointer" onclick="openLightbox(this)">
+                                <img src="https://i.imgur.com/JHrpC3M.jpeg" onerror="this.src='https://placehold.co/1200x800/E2E6EC/5C646E?text=Silvesta+Lote+52+Foto+2'" alt="Silvesta Lote 52 - Foto 2" class="w-full h-full object-cover hover:scale-105 transition-transform duration-300">
+                            </div>
+                            <!-- Foto 3 -->
+                            <div class="w-full h-full flex-shrink-0 cursor-pointer" onclick="openLightbox(this)">
+                                <img src="https://i.imgur.com/lgZmxJF.jpeg" onerror="this.src='https://placehold.co/1200x800/E2E6EC/5C646E?text=Silvesta+Lote+52+Foto+3'" alt="Silvesta Lote 52 - Foto 3" class="w-full h-full object-cover hover:scale-105 transition-transform duration-300">
+                            </div>
+                            <!-- Foto 4 -->
+                            <div class="w-full h-full flex-shrink-0 cursor-pointer" onclick="openLightbox(this)">
+                                <img src="https://i.imgur.com/ea8WgUn.jpeg" onerror="this.src='https://placehold.co/1200x800/E2E6EC/5C646E?text=Silvesta+Lote+52+Foto+4'" alt="Silvesta Lote 52 - Foto 4" class="w-full h-full object-cover hover:scale-105 transition-transform duration-300">
+                            </div>
+                            <!-- Foto 5 -->
+                            <div class="w-full h-full flex-shrink-0 cursor-pointer" onclick="openLightbox(this)">
+                                <img src="https://i.imgur.com/YAHr2BG.jpeg" onerror="this.src='https://placehold.co/1200x800/E2E6EC/5C646E?text=Silvesta+Lote+52+Foto+5'" alt="Silvesta Lote 52 - Foto 5" class="w-full h-full object-cover hover:scale-105 transition-transform duration-300">
+                            </div>
+                            <!-- Foto 6 -->
+                            <div class="w-full h-full flex-shrink-0 cursor-pointer" onclick="openLightbox(this)">
+                                <img src="https://i.imgur.com/8xdxwtJ.jpeg" onerror="this.src='https://placehold.co/1200x800/E2E6EC/5C646E?text=Silvesta+Lote+52+Foto+6'" alt="Silvesta Lote 52 - Foto 6" class="w-full h-full object-cover hover:scale-105 transition-transform duration-300">
+                            </div>
+                            <!-- Foto 7 -->
+                            <div class="w-full h-full flex-shrink-0 cursor-pointer" onclick="openLightbox(this)">
+                                <img src="https://i.imgur.com/7aB4gJZ.jpeg" onerror="this.src='https://placehold.co/1200x800/E2E6EC/5C646E?text=Silvesta+Lote+52+Foto+7'" alt="Silvesta Lote 52 - Foto 7" class="w-full h-full object-cover hover:scale-105 transition-transform duration-300">
+                            </div>
+                            <!-- Foto 8 -->
+                            <div class="w-full h-full flex-shrink-0 cursor-pointer" onclick="openLightbox(this)">
+                                <img src="https://i.imgur.com/QOQrfi0.jpeg" onerror="this.src='https://placehold.co/1200x800/E2E6EC/5C646E?text=Silvesta+Lote+52+Foto+8'" alt="Silvesta Lote 52 - Foto 8" class="w-full h-full object-cover hover:scale-105 transition-transform duration-300">
+                            </div>
+                            <!-- Foto 9 -->
+                            <div class="w-full h-full flex-shrink-0 cursor-pointer" onclick="openLightbox(this)">
+                                <img src="https://i.imgur.com/51HdynM.jpeg" onerror="this.src='https://placehold.co/1200x800/E2E6EC/5C646E?text=Silvesta+Lote+52+Foto+9'" alt="Silvesta Lote 52 - Foto 9" class="w-full h-full object-cover hover:scale-105 transition-transform duration-300">
+                            </div>
+                            <!-- Foto 10 -->
+                            <div class="w-full h-full flex-shrink-0 cursor-pointer" onclick="openLightbox(this)">
+                                <img src="https://i.imgur.com/bSDYpJc.jpeg" onerror="this.src='https://placehold.co/1200x800/E2E6EC/5C646E?text=Silvesta+Lote+52+Foto+10'" alt="Silvesta Lote 52 - Foto 10" class="w-full h-full object-cover hover:scale-105 transition-transform duration-300">
+                            </div>
+                        </div>
+
+                        <!-- Botones de navegación -->
+                        <button onclick="prevSlide()" class="absolute left-4 top-1/2 -translate-y-1/2 bg-black/50 hover:bg-black/75 text-white w-10 h-10 rounded-full flex items-center justify-center backdrop-blur-sm transition-all z-10">
+                            <i class="fa-solid fa-chevron-left"></i>
+                        </button>
+
+                        <button onclick="nextSlide()" class="absolute right-4 top-1/2 -translate-y-1/2 bg-black/50 hover:bg-black/75 text-white w-10 h-10 rounded-full flex items-center justify-center backdrop-blur-sm transition-all z-10">
+                            <i class="fa-solid fa-chevron-right"></i>
+                        </button>
+                    </div>
+
+                    <!-- Especificaciones técnicas -->
+                    <div class="grid grid-cols-2 sm:grid-cols-3 gap-4">
+                        <div class="bg-vrtcSilver p-5 rounded-xl border border-vrtcPlatinum">
+                            <span class="text-[11px] uppercase tracking-wider text-vrtcSteel block">Ubicación</span>
+                            <span class="font-cinzel font-bold text-lg text-vrtcDark mt-1 block">Conkal, Yucatán</span>
+                        </div>
+                        <div class="bg-vrtcSilver p-5 rounded-xl border border-vrtcPlatinum">
+                            <span class="text-[11px] uppercase tracking-wider text-vrtcSteel block">Desarrollo</span>
+                            <span class="font-cinzel font-bold text-lg text-vrtcDark mt-1 block">Privada SILVESTA</span>
+                        </div>
+                        <div class="bg-vrtcSilver p-5 rounded-xl border border-vrtcPlatinum col-span-2 sm:col-span-1">
+                            <span class="text-[11px] uppercase tracking-wider text-vrtcSteel block">Estatus Legal</span>
+                            <span class="font-cinzel font-bold text-lg text-vrtcDark mt-1 block">Listo para Escriturar</span>
+                        </div>
+                    </div>
+
+                    <!-- Descripción -->
+                    <div class="space-y-4">
+                        <h2 class="font-cinzel text-2xl font-bold text-vrtcDark">Acerca de Lote 52 Residencial SILVESTA</h2>
+                        <p class="text-vrtcSteel text-base leading-relaxed">
+                            Lote 52 se encuentra ubicado en la cotizada privada residencial SILVESTA en Conkal, Yucatán. Disfruta de una posición privilegiada dentro de la privada, cercanía con la caseta de acceso y parques infantiles, seguridad las 24 horas y servicios subterráneos a pie de lote. Una excelente opción tanto para vivienda residencial como para inversión patrimonial a mediano y largo plazo.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="lg:col-span-1">
+                    <div class="bg-vrtcSilver p-8 rounded-2xl border border-vrtcPlatinum sticky top-28 shadow-sm">
+                        <h3 class="font-cinzel text-xl font-bold text-vrtcDark mb-3">¿Te interesa el Lote 52?</h3>
+                        <p class="text-vrtcSteel text-sm mb-6 leading-relaxed">
+                            Contacta directamente a un asesor de VHTC para recibir cotización, cotizaciones de construcción o coordinar una visita.
+                        </p>
+
+                        <a href="https://wa.me/525518236584?text=Hola%20VHTC,%20me%20interesa%20recibir%20más%20información%20sobre%20el%20Lote%2052%20Residencial%20SILVESTA." target="_blank" rel="noopener noreferrer" class="w-full bg-vrtcEmerald hover:bg-emerald-700 text-white font-medium text-sm py-4 rounded-xl shadow-lg transition-all flex items-center justify-center space-x-2 mb-4">
+                            <i class="fa-brands fa-whatsapp text-xl"></i>
+                            <span>Consultar por WhatsApp</span>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-black text-slate-400 py-8 border-t border-white/10">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center sm:text-left flex flex-col sm:flex-row items-center justify-between space-y-4 sm:space-y-0">
+            <div class="flex items-center space-x-3">
+                <div class="w-8 h-8 rounded-lg bg-gradient-to-br from-slate-200 via-slate-400 to-slate-600 flex items-center justify-center">
+                    <span class="font-cinzel font-bold text-white text-sm">V</span>
+                </div>
+                <span class="font-cinzel text-white text-sm tracking-wider">VHTC Bienes Raíces</span>
+            </div>
+            <p class="text-xs text-slate-500">
+                &copy; <span id="year"></span> VHTC Bienes Raíces. Todos los derechos reservados.
+            </p>
+        </div>
+    </footer>
+
+    <!-- Modal Lightbox para ver la imagen completa -->
+    <div id="lightbox" class="fixed inset-0 z-50 bg-black/90 hidden items-center justify-center p-4">
+        <button onclick="closeLightbox()" class="absolute top-6 right-6 text-white text-3xl hover:text-emerald-400 transition-colors z-50">
+            <i class="fa-solid fa-xmark"></i>
+        </button>
+        <img id="lightbox-img" src="" alt="Foto ampliada" class="max-w-full max-h-[85vh] object-contain rounded-xl shadow-2xl">
+    </div>
+
+    <script>
+        document.getElementById('year').textContent = new Date().getFullYear();
+
+        let currentSlide = 0;
+        const totalSlides = 10;
+
+        function updateCarousel() {
+            const track = document.getElementById('carousel-track');
+            track.style.transform = `translateX(-${currentSlide * 100}%)`;
+            document.getElementById('current-slide-num').textContent = currentSlide + 1;
+        }
+
+        function nextSlide() {
+            currentSlide = (currentSlide + 1) % totalSlides;
+            updateCarousel();
+        }
+
+        function prevSlide() {
+            currentSlide = (currentSlide - 1 + totalSlides) % totalSlides;
+            updateCarousel();
+        }
+
+        function openLightbox(element) {
+            const img = element.querySelector('img');
+            const lightbox = document.getElementById('lightbox');
+            const lightboxImg = document.getElementById('lightbox-img');
+            
+            lightboxImg.src = img.src;
+            lightbox.classList.remove('hidden');
+            lightbox.classList.add('flex');
+            document.body.style.overflow = 'hidden';
+        }
+
+        function closeLightbox() {
+            const lightbox = document.getElementById('lightbox');
+            lightbox.classList.remove('flex');
+            lightbox.classList.add('hidden');
+            document.body.style.overflow = 'auto';
+        }
+
+        document.getElementById('lightbox').addEventListener('click', function(e) {
+            if (e.target === this) {
+                closeLightbox();
+            }
+        });
+    </script>
+</body>
+</html>
